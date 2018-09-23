@@ -31,9 +31,11 @@ function palindrome() {
 
   if (comparisonChamberOne.length === comparisonChamberTwo.length &&
     comparisonChamberOne.every((item, index) => comparisonChamberTwo[index] === item)){
-      console.log("true");
+      $("#resultLine").html(strippedString+" is a palindrome :)");
+      $("#theForm").css("background-color", "#76d275");
   }else{
-      console.log("False");
+      $("#resultLine").html(strippedString+" isn't a palindrome :(");
+      $("#theForm").css("background-color", "#ef5350");
   }
 
   //checks array items against each other for equality

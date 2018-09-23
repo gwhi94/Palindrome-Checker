@@ -1,7 +1,8 @@
 #theForm{
 	height:250px;
-	border:5px solid black;
-	padding:0px;
+	border:5px dashed #7885cc;
+	padding:5px;
+	background-color: #abb6ff;
 }
 
 .box{
@@ -9,4 +10,15 @@
 	width: 100vw;
 	display: flex;
 	align-items: center;
+	background-color: #49599a;
 }
+
+#btnHolder{
+	text-align: center;
+	margin:auto;
+}
+
+#resultLine{
+	margin-top: 2%;
+}
+
